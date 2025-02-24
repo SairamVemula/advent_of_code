@@ -14,7 +14,7 @@ enum SignPoints {
 }
 
 
-pub fn main() {
+pub fn run() {
 
 let permutations  = HashMap::from([
     ("A X".to_string(), (Points::Draw as i32) + (SignPoints::X as i32)),

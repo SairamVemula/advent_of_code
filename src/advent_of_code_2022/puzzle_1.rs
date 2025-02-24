@@ -1,7 +1,7 @@
 
 use std::{fs::File, io::BufRead, io::BufReader};
 
-pub fn main() {
+pub fn run() {
     let file = match File::open(String::from("input1.txt")) {
         Err(why) => panic!("Can't open {}", why),
         Ok(file) => file,
