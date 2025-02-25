@@ -1,9 +1,10 @@
-mod advent_of_code_2022;
 use crate::advent_of_code_2022::*;
+
+mod advent_of_code_2022;
 
 
 fn main(){
-    puzzle_4::run();
+    puzzle_5::run();
 }
 
 // #[cfg(test)]
